@@ -1,8 +1,14 @@
 .nav-container {
-    border: 1px solid orange;
+    border: 1px solid #AD97D2;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     width: 10vw;
     height: 100vh;
+    background: #403176;
+    a {
+        color: #AD97D2;
+        font-family: 'Big Shoulders Text', cursive;
+        font-size: 32px;
+    }
 }
