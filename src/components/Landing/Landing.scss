@@ -19,9 +19,19 @@
 .star-container {
     // border: 1px solid red;
     height: 50%;
-    width: 30%;
+    width: 32%;
     transform: rotateZ(45deg);
     
+}
+
+.star-container-2 {
+    // border: 1px solid white;
+    height: 10%;
+    width: 10%;
+    transform: rotateZ(45deg);
+    position: absolute;
+    bottom: 28%;
+    left: 15%;
 }
 
 @keyframes starAnimation
@@ -30,7 +40,7 @@
         transform: translateX(0);
     }
     to {
-        transform: translateX(320px);
+        transform: translateX(370px);
     }
 }
 
@@ -50,29 +60,50 @@
     position: absolute;
     height: 2px;
     background: linear-gradient(-45deg, #5f91ff, rgba(0, 0, 251, 0));
-    bottom: 30%;
-    left: 25%;
+    // bottom: 30%;
+    // left: 25%;
     filter: drop-shadow(0 0 6px #699bff);
     animation: 
         starAnimation 2s ease-in-out infinite,
         tail 2s ease-in-out infinite; 
 }
 
-.star-2 {
-    top: 40%;
-    left: 10%;
-    animation-duration: 3s;
+.star-1 {
+    bottom: 30%;
+    left: 15%;
 }
 
-.star-3 {
-    bottom: 40%;
-    left: 5%;
+.star-2 {
+    top: 40%;
+    left: -100%;
     animation-duration: 4s;
 }
 
+.star-3 {
+    bottom: -22%;
+    left: -50%;
+    animation-duration: 3s;
+}
+
 .star-4 {
-    top: 10%;
+    top: -40%;
     left: 15%;
-    animation-duration: 2s;
+    animation-duration: 2.5s;
+}
+
+.star-5 {
+    bottom: 20%;
+    left: -100%;
+    animation-duration: 3.5s;
+}
+
+.star-6 {
+    top: -90%;
+    left: 5%;
+    animation-duration: 4.5s;
+}
+
+.star-7 {
+    animation-duration: 2.75s;
 }
 
