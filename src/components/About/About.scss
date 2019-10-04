@@ -1,3 +1,28 @@
 .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     width: 90vw;
+    background-image: url('https://cdn.pixabay.com/photo/2018/11/13/17/51/jupiter-3813573_1280.jpg');
+    background-size: cover;
+    font-size: 40px;
+    h1 {
+        color: #EFF0F2;
+    }
+    h4 {
+        color: #DBDBD3;
+    }
+}
+
+.about-description {
+    width: 50%; 
+    height: 80%;
+    // border: 1px solid white;
+    position: relative;
+    right: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
 }
