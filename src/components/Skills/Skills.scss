@@ -1,3 +1,24 @@
 .skills-container {
     width: 90vw;
+    // background-image: url('https://live.staticflickr.com/960/41428774775_88f6a5981e_b.jpg');
+    background-size: cover;
+    background: whitesmoke;
+}
+
+.skills {
+    border: 1px solid red;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    // border: 1px solid blue;
+}
+
+.contain {
+    object-fit: contain;
 }
