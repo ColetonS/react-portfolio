@@ -34,12 +34,16 @@ export default function Skills() {
                     <p>CSS</p>
                 </div>
                 <div className="skill">
-                    <img></img>
-                    <p></p>
+                    <img src='https://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png' className='logo-img' alt='Sass logo'></img>
+                    <p>Sass</p>
                 </div>
                 <div className="skill">
-                    <img></img>
-                    <p></p>
+                    <img src='https://avatars0.githubusercontent.com/u/13142323?s=400&v=4' className='logo-img' alt='Redux logo'></img>
+                    <p>Redux</p>
+                </div>
+                <div className="skill">
+                    <img src='https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png' className='logo-img' alt='Git logo'></img>
+                    <p>Git</p>
                 </div>
             </div>
         </div>
