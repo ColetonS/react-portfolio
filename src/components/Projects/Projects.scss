@@ -1,3 +1,25 @@
 .projects-container {
     width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    // flex-direction: column;
+}
+
+.project {
+    border: 1px solid black; 
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.project-img {
+    height: auto;
+    width: 500px;
 }
